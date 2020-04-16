@@ -1,3 +1,5 @@
 os: osx
 language: swift
 xcode_project: ./DuoColorPicker.xcodeproj
+xcode_scheme: DuoColorPicker
+xcode_destination: platform=macOS
