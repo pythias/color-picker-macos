@@ -2,6 +2,8 @@
 
 苹果系统调色版插件
 
+![多彩](main.png)
+
 ## 配色来源
 
 - [中国色](http://zhongguose.com/)
