@@ -1,0 +1,18 @@
+/* 
+  Localization.strings
+  DuoColorPicker
+
+  Created by pythias on 2021/3/4.
+  Copyright © 2021 pythias. All rights reserved.
+*/
+"title" = "多彩";
+"titleSource" = "配色来源";
+
+"my-favorite" = "我的收藏";
+"src-random" = "每日随机";
+"src-adobe" = "Adobe潮流";
+"src-dopely" = "colors.dopely.top";
+"src-coolors" = "coolors.co";
+"src-color-hunt" = "colorhunt.co";
+"src-scheme-color" = "www.schemecolor.com";
+"src-brand" = "常见品牌";

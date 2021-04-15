@@ -1,0 +1,6 @@
+framework module Pods_DuoColorPicker {
+  umbrella header "Pods-DuoColorPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

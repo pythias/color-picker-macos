@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C797920E244825D6009C9147 /* PatternCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C797920D244825D6009C9147 /* PatternCell.swift */; };
-		C79792142448409B009C9147 /* fetch-hunt.js in Resources */ = {isa = PBXBuildFile; fileRef = C79792132448409B009C9147 /* fetch-hunt.js */; };
+		A82B0C66DC6E800542FB6FD8 /* Pods_DuoColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288F1CEE4F4E9D3E598BC067 /* Pods_DuoColorPicker.framework */; };
+		C716782825F0D3EF00113FC9 /* MyFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716782725F0D3EF00113FC9 /* MyFavorite.swift */; };
+		C716783025F0D84E00113FC9 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = C716783225F0D84E00113FC9 /* Localization.strings */; };
+		C716783725F0DAB200113FC9 /* SourceAdobe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716783625F0DAB200113FC9 /* SourceAdobe.swift */; };
+		C716784125F0DB2300113FC9 /* SourceCoolors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C716784025F0DB2300113FC9 /* SourceCoolors.swift */; };
+		C7B462A5245A87AB004BEAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B462A4245A87AB004BEAA5 /* Assets.xcassets */; };
 		C7C0E8792446CB7D0016D44F /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0E8782446CB7D0016D44F /* ColorPicker.swift */; };
 		C7C0E87E2446D0510016D44F /* colors.tiff in Resources */ = {isa = PBXBuildFile; fileRef = C7C0E87C2446D0510016D44F /* colors.tiff */; };
 		C7C0E8892446D23E0016D44F /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0E8872446D23E0016D44F /* Pattern.swift */; };
-		C7C0E88A2446D23E0016D44F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0E8882446D23E0016D44F /* Color.swift */; };
 		C7C0E88C2446D2500016D44F /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0E88B2446D2500016D44F /* ColorPickerViewController.swift */; };
-		C7C0E88E2446D2A60016D44F /* fetch-coolors.js in Resources */ = {isa = PBXBuildFile; fileRef = C7C0E88D2446D2A60016D44F /* fetch-coolors.js */; };
-		C7C0E8932446D2BA0016D44F /* ColorSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0E8902446D2BA0016D44F /* ColorSource.swift */; };
-		C7C0E8942446D2BA0016D44F /* ColorHunt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0E8912446D2BA0016D44F /* ColorHunt.swift */; };
-		C7C0E8952446D2BA0016D44F /* Coolors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C0E8922446D2BA0016D44F /* Coolors.swift */; };
 		C7C0E8992446FEBB0016D44F /* DuoColorPicker.colorPicker in Copy Files */ = {isa = PBXBuildFile; fileRef = C7C0E86D2446CB030016D44F /* DuoColorPicker.colorPicker */; };
+		F5314D5626205315003690B1 /* PatternRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5314D5526205315003690B1 /* PatternRowView.swift */; };
+		F566B2E726280EEA00268F8A /* SourceRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566B2E526280EEA00268F8A /* SourceRandom.swift */; };
+		F566B2EB26280F0500268F8A /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566B2EA26280F0500268F8A /* Source.swift */; };
+		F566B2F526280F7400268F8A /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566B2F326280F7400268F8A /* String.swift */; };
+		F566B2F626280F7400268F8A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566B2F426280F7400268F8A /* Color.swift */; };
+		F566B2F926280F8D00268F8A /* NameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566B2F826280F8D00268F8A /* NameView.swift */; };
+		F57394F9261F014900864581 /* PatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57394F8261F014900864581 /* PatternView.swift */; };
+		F57394FE261F09ED00864581 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57394FD261F09ED00864581 /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,19 +43,32 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C797920D244825D6009C9147 /* PatternCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternCell.swift; sourceTree = "<group>"; };
-		C79792132448409B009C9147 /* fetch-hunt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "fetch-hunt.js"; sourceTree = "<group>"; };
+		10C8451FB30EA4019890CFA1 /* Pods-DuoColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoColorPicker.debug.xcconfig"; path = "Target Support Files/Pods-DuoColorPicker/Pods-DuoColorPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		288F1CEE4F4E9D3E598BC067 /* Pods_DuoColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DuoColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E015E54F5D8F9EC0D43169 /* Pods-DuoColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DuoColorPicker.release.xcconfig"; path = "Target Support Files/Pods-DuoColorPicker/Pods-DuoColorPicker.release.xcconfig"; sourceTree = "<group>"; };
+		C716782725F0D3EF00113FC9 /* MyFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFavorite.swift; sourceTree = "<group>"; };
+		C716783125F0D84E00113FC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		C716783425F0D85300113FC9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
+		C716783625F0DAB200113FC9 /* SourceAdobe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceAdobe.swift; sourceTree = "<group>"; };
+		C716784025F0DB2300113FC9 /* SourceCoolors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceCoolors.swift; sourceTree = "<group>"; };
+		C7B462A4245A87AB004BEAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7C0E86D2446CB030016D44F /* DuoColorPicker.colorPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuoColorPicker.colorPicker; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C0E8702446CB030016D44F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7C0E8782446CB7D0016D44F /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 		C7C0E87C2446D0510016D44F /* colors.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = colors.tiff; sourceTree = "<group>"; };
 		C7C0E8872446D23E0016D44F /* Pattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
-		C7C0E8882446D23E0016D44F /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		C7C0E88B2446D2500016D44F /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
-		C7C0E88D2446D2A60016D44F /* fetch-coolors.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "fetch-coolors.js"; sourceTree = "<group>"; };
-		C7C0E8902446D2BA0016D44F /* ColorSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSource.swift; sourceTree = "<group>"; };
-		C7C0E8912446D2BA0016D44F /* ColorHunt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHunt.swift; sourceTree = "<group>"; };
-		C7C0E8922446D2BA0016D44F /* Coolors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coolors.swift; sourceTree = "<group>"; };
+		F5314D5526205315003690B1 /* PatternRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternRowView.swift; sourceTree = "<group>"; };
+		F53620AF26281AE40094B6E5 /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53620B626281B2A0094B6E5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53620BB26281C840094B6E5 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F566B2E526280EEA00268F8A /* SourceRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceRandom.swift; sourceTree = "<group>"; };
+		F566B2EA26280F0500268F8A /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		F566B2F326280F7400268F8A /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		F566B2F426280F7400268F8A /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F566B2F826280F8D00268F8A /* NameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameView.swift; sourceTree = "<group>"; };
+		F57394F8261F014900864581 /* PatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternView.swift; sourceTree = "<group>"; };
+		F57394FD261F09ED00864581 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +76,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82B0C66DC6E800542FB6FD8 /* Pods_DuoColorPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35494AF3DA415231C49152D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C8451FB30EA4019890CFA1 /* Pods-DuoColorPicker.debug.xcconfig */,
+				37E015E54F5D8F9EC0D43169 /* Pods-DuoColorPicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA0CEC408573F2016FC2B09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F53620BB26281C840094B6E5 /* Alamofire.framework */,
+				F53620B626281B2A0094B6E5 /* Alamofire.framework */,
+				F53620AF26281AE40094B6E5 /* libAlamofire.a */,
+				288F1CEE4F4E9D3E598BC067 /* Pods_DuoColorPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7C0E8642446CB030016D44F = {
 			isa = PBXGroup;
 			children = (
 				C7C0E86F2446CB030016D44F /* DuoColorPicker */,
 				C7C0E86E2446CB030016D44F /* Products */,
+				35494AF3DA415231C49152D6 /* Pods */,
+				AA0CEC408573F2016FC2B09D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +124,16 @@
 		C7C0E86F2446CB030016D44F /* DuoColorPicker */ = {
 			isa = PBXGroup;
 			children = (
+				F5DCF64F2628167000460445 /* Assets */,
+				F566B2F226280F7400268F8A /* Extensions */,
 				C7C0E88F2446D2BA0016D44F /* Sources */,
-				C7C0E8832446D1450016D44F /* Scripts */,
 				C7C0E8822446D1400016D44F /* Models */,
 				C7C0E8812446D13C0016D44F /* Views */,
 				C7C0E8802446D1320016D44F /* Controllers */,
-				C7C0E87C2446D0510016D44F /* colors.tiff */,
 				C7C0E8702446CB030016D44F /* Info.plist */,
 				C7C0E8782446CB7D0016D44F /* ColorPicker.swift */,
+				C7B462A4245A87AB004BEAA5 /* Assets.xcassets */,
+				C716783225F0D84E00113FC9 /* Localization.strings */,
 			);
 			path = DuoColorPicker;
 			sourceTree = "<group>";
@@ -104,7 +149,10 @@
 		C7C0E8812446D13C0016D44F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C797920D244825D6009C9147 /* PatternCell.swift */,
+				F566B2F826280F8D00268F8A /* NameView.swift */,
+				F5314D5526205315003690B1 /* PatternRowView.swift */,
+				F57394F8261F014900864581 /* PatternView.swift */,
+				F57394FD261F09ED00864581 /* FavoriteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,29 +160,38 @@
 		C7C0E8822446D1400016D44F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C7C0E8882446D23E0016D44F /* Color.swift */,
 				C7C0E8872446D23E0016D44F /* Pattern.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		C7C0E8832446D1450016D44F /* Scripts */ = {
-			isa = PBXGroup;
-			children = (
-				C7C0E88D2446D2A60016D44F /* fetch-coolors.js */,
-				C79792132448409B009C9147 /* fetch-hunt.js */,
-			);
-			path = "\U0010Scripts";
-			sourceTree = "<group>";
-		};
 		C7C0E88F2446D2BA0016D44F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				C7C0E8902446D2BA0016D44F /* ColorSource.swift */,
-				C7C0E8912446D2BA0016D44F /* ColorHunt.swift */,
-				C7C0E8922446D2BA0016D44F /* Coolors.swift */,
+				F566B2EA26280F0500268F8A /* Source.swift */,
+				F566B2E526280EEA00268F8A /* SourceRandom.swift */,
+				C716782725F0D3EF00113FC9 /* MyFavorite.swift */,
+				C716783625F0DAB200113FC9 /* SourceAdobe.swift */,
+				C716784025F0DB2300113FC9 /* SourceCoolors.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		F566B2F226280F7400268F8A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F566B2F326280F7400268F8A /* String.swift */,
+				F566B2F426280F7400268F8A /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F5DCF64F2628167000460445 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C7C0E87C2446D0510016D44F /* colors.tiff */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7C0E8732446CB030016D44F /* Build configuration list for PBXNativeTarget "DuoColorPicker" */;
 			buildPhases = (
+				C5040E9A7CE52EFF1F28CBA1 /* [CP] Check Pods Manifest.lock */,
 				C7C0E8692446CB030016D44F /* Sources */,
 				C7C0E86A2446CB030016D44F /* Frameworks */,
 				C7C0E86B2446CB030016D44F /* Resources */,
@@ -164,7 +222,7 @@
 		C7C0E8652446CB030016D44F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = pythias;
 				TargetAttributes = {
 					C7C0E86C2446CB030016D44F = {
@@ -180,6 +238,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C7C0E8642446CB030016D44F;
 			productRefGroup = C7C0E86E2446CB030016D44F /* Products */;
@@ -196,37 +255,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C716783025F0D84E00113FC9 /* Localization.strings in Resources */,
+				C7B462A5245A87AB004BEAA5 /* Assets.xcassets in Resources */,
 				C7C0E87E2446D0510016D44F /* colors.tiff in Resources */,
-				C7C0E88E2446D2A60016D44F /* fetch-coolors.js in Resources */,
-				C79792142448409B009C9147 /* fetch-hunt.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5040E9A7CE52EFF1F28CBA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DuoColorPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C7C0E8692446CB030016D44F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7C0E8942446D2BA0016D44F /* ColorHunt.swift in Sources */,
-				C7C0E8952446D2BA0016D44F /* Coolors.swift in Sources */,
-				C7C0E8932446D2BA0016D44F /* ColorSource.swift in Sources */,
+				F5314D5626205315003690B1 /* PatternRowView.swift in Sources */,
+				C716784125F0DB2300113FC9 /* SourceCoolors.swift in Sources */,
+				C716783725F0DAB200113FC9 /* SourceAdobe.swift in Sources */,
+				F566B2F626280F7400268F8A /* Color.swift in Sources */,
+				C716782825F0D3EF00113FC9 /* MyFavorite.swift in Sources */,
 				C7C0E8892446D23E0016D44F /* Pattern.swift in Sources */,
-				C797920E244825D6009C9147 /* PatternCell.swift in Sources */,
-				C7C0E88A2446D23E0016D44F /* Color.swift in Sources */,
+				F566B2EB26280F0500268F8A /* Source.swift in Sources */,
+				F566B2F926280F8D00268F8A /* NameView.swift in Sources */,
 				C7C0E88C2446D2500016D44F /* ColorPickerViewController.swift in Sources */,
 				C7C0E8792446CB7D0016D44F /* ColorPicker.swift in Sources */,
+				F57394FE261F09ED00864581 /* FavoriteView.swift in Sources */,
+				F57394F9261F014900864581 /* PatternView.swift in Sources */,
+				F566B2F526280F7400268F8A /* String.swift in Sources */,
+				F566B2E726280EEA00268F8A /* SourceRandom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C716783225F0D84E00113FC9 /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C716783125F0D84E00113FC9 /* en */,
+				C716783425F0D85300113FC9 /* zh-Hans */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C7C0E8712446CB030016D44F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -249,6 +352,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -285,6 +389,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -307,6 +412,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -329,16 +435,19 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
 		};
 		C7C0E8742446CB030016D44F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C8451FB30EA4019890CFA1 /* Pods-DuoColorPicker.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BM4Q5C982L;
 				INFOPLIST_FILE = DuoColorPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
@@ -347,6 +456,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.duo.ColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -358,11 +468,13 @@
 		};
 		C7C0E8752446CB030016D44F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E015E54F5D8F9EC0D43169 /* Pods-DuoColorPicker.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = BM4Q5C982L;
 				INFOPLIST_FILE = DuoColorPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
@@ -371,6 +483,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.duo.ColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

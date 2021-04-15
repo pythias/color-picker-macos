@@ -9,6 +9,7 @@
 import Cocoa
 
 final class ColorPicker: NSColorPicker {
+    private static let minContentSize = NSSize(width: 300.0, height: 400.0)
     private let bundle = Bundle(for: ColorPicker.self)
     private lazy var colorPickerViewController = ColorPickerViewController()
     
@@ -16,9 +17,17 @@ final class ColorPicker: NSColorPicker {
         let icon = bundle.image(forResource: "colors")!
         return icon
     }
-        
+    
     override var buttonToolTip: String {
-        return "颜色模板";
+        return NSLocalizedString("title", comment: "Color Palettes")
+    }
+        
+    override var minContentSize: NSSize {
+        return ColorPicker.minContentSize
+    }
+    
+    override func viewSizeChanged(_ sender: Any?) {
+        
     }
 }
 
